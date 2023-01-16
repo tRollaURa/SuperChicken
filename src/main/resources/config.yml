@@ -1,0 +1,12 @@
+#Super Chicken
+EnableSuperChicken: true
+
+#提示设置(Messages Settings) ->>
+Prefix: "&c[SuperChicken]"
+Messages:
+  NoPerms: "&4你没有权限!"
+  DupeOnce: "&a复制了一次!"
+
+#通用设置(General Settings) ->>
+ChickenDupeTimes: 10
+Notification: true

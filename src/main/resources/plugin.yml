@@ -1,0 +1,12 @@
+name: SuperChicken
+version: '${project.version}'
+main: cn.trollaura.superchicken.SuperChicken
+authors: [ tRollaURa_ ]
+description: a dupe plugin for 2b2t server.
+commands:
+  superchicken:
+    description: basecommand.
+    aliases: sc
+  removechickens:
+    description: remove any chicken in the world.
+    aliases: rc
