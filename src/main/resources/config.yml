@@ -1,4 +1,5 @@
-#Super Chicken
+#Super Chicken by tRollaURa_
+#QQ: 1650108081
 EnableSuperChicken: true
 
 #提示设置(Messages Settings) ->>
@@ -6,7 +7,16 @@ Prefix: "&c[SuperChicken]"
 Messages:
   NoPerms: "&4你没有权限!"
   DupeOnce: "&a复制了一次!"
+  OnCD: "&4请等待冷却!"
 
 #通用设置(General Settings) ->>
-ChickenDupeTimes: 10
+ChickenSpawnLimit:
+  Enable: true
+  Counts: 7
+EveryoneHasPermission: true
+ChickenDupeTimes: 4
 Notification: true
+CanMultiDupe:
+  Enable: true
+  Multi: 15
+MultiDupeCD: 1000

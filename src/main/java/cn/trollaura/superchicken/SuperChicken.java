@@ -1,7 +1,6 @@
 package cn.trollaura.superchicken;
 
 import cn.trollaura.superchicken.Commands.BaseCommand;
-import cn.trollaura.superchicken.Commands.KillChickens;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -13,7 +12,6 @@ public final class SuperChicken extends JavaPlugin {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new Listener(),this);
         getCommand("superchicken").setExecutor(new BaseCommand());
-        getCommand("removechickens").setExecutor(new KillChickens());
         Bukkit.getLogger().info(Colors("&c--------------------------------------------"));
         Bukkit.getLogger().info(Colors("&c- =========     ======         =======     -"));
         Bukkit.getLogger().info(Colors("&c-    ==        ==     ==      ==      ==   -"));
@@ -21,7 +19,7 @@ public final class SuperChicken extends JavaPlugin {
         Bukkit.getLogger().info(Colors("&c-    ==      ==     ==        ==      ==   -"));
         Bukkit.getLogger().info(Colors("&c-    ==     ==        ==       ========    -"));
         Bukkit.getLogger().info(Colors("&c--------------------------------------------"));
-        Bukkit.getLogger().info(Colors("&eSuperChicken v1.0 By TrollAura"));
+        Bukkit.getLogger().info(Colors("&eSuperChicken v1.1 By TrollAura"));
         Bukkit.getLogger().info(Colors("&c[SuperChicken] &aEnabled the Plugin"));
         saveDefaultConfig();
     }

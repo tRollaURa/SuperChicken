@@ -7,6 +7,3 @@ commands:
   superchicken:
     description: basecommand.
     aliases: sc
-  removechickens:
-    description: remove any chicken in the world.
-    aliases: rc

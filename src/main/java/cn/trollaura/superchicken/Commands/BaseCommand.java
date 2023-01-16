@@ -1,5 +1,6 @@
 package cn.trollaura.superchicken.Commands;
 
+import cn.trollaura.superchicken.Listener;
 import cn.trollaura.superchicken.Utils;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
